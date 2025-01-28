@@ -1,0 +1,9 @@
+{
+  "CHECK_TRANSACTION_EXCUARION": {
+    "isError": "1",
+    "errDescription": "Bad jump destination"
+  },
+  "CHECK_TRANSACTION_STATUS": {
+    "status": "1"
+  }
+}
