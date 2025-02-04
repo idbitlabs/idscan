@@ -45,7 +45,7 @@ const Anylitic = () => {
             </div>
             <div>
               <span class="fs-5">
-                46,076<b>.</b>69 MATIC
+                46,076<b>.</b>69 POL
               </span>
             </div>
           </div>
@@ -66,7 +66,7 @@ const Anylitic = () => {
               <i class="far fa-arrow-up-right text-secondary group-hover"></i>
             </div>
             <div>
-              <span class="fs-5">19,308.00 MATIC</span>
+              <span class="fs-5">19,308.00 POL</span>
             </div>
           </div>
         </a>

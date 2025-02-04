@@ -27,7 +27,7 @@ import Input from "./Input";
 
 import { CONTEXT } from "../../context/ContextProvider";
 // import Data from "../../data/Address.json";
-import { shortenAddress, convertIntoMatic } from "../../utils/index";
+import { shortenAddress, convertIntoPOL } from "../../utils/index";
 
 const Address = () => {
   const router = useRouter();
@@ -242,7 +242,7 @@ const Address = () => {
                       addressBalance == "Error! Invalid address format" ? (
                         "API ERROR"
                       ) : (
-                        <>{convertIntoMatic(addressBalance)} IDT</>
+                        <>{convertIntoPOL(addressBalance)} IDT</>
                       )}
                     </div>
                   </div>

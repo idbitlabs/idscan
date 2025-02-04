@@ -540,7 +540,7 @@ const Header = () => {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    <i class="far fa-user-circle me-1"></i>DAULATHUSSAIN
+                    <i class="far fa-user-circle me-1"></i>mrtiobit
                   </a>
                   <ul
                     class="dropdown-menu dropdown-menu-border"

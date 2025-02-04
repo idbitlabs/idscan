@@ -5,7 +5,7 @@ import { FaRegCopy } from "react-icons/fa6";
 import { FaRegFileAlt } from "react-icons/fa";
 import { BsArrowRight } from "react-icons/bs";
 
-import { shortenAddress, convertIntoMatic } from "../../utils/index";
+import { shortenAddress, convertIntoPOL } from "../../utils/index";
 import { Waring } from "../index";
 
 const ProductBlock = ({ BLOCK_VALIDATED, addressExplor }) => {
@@ -112,7 +112,7 @@ const ProductBlock = ({ BLOCK_VALIDATED, addressExplor }) => {
                           <td>{item.traceId}</td>
                           <td>{index + 1}</td>
                           <td>
-                            {convertIntoMatic(item.gas)}{" "}
+                            {convertIntoPOL(item.gas)}{" "}
                             <span class="small text-muted">(53.31%)</span>
                             <div
                               class="progress mt-1"
@@ -128,7 +128,7 @@ const ProductBlock = ({ BLOCK_VALIDATED, addressExplor }) => {
                               ></div>
                             </div>
                           </td>
-                          <td>{convertIntoMatic(item.value)} MATIC</td>
+                          <td>{convertIntoPOL(item.value)} POL</td>
                         </tr>
                       ))
                       .slice(0, 25)}

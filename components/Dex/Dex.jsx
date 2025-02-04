@@ -34,7 +34,7 @@ const Dex = () => {
         type="hidden"
         name="hdnTxnFeeTitle"
         id="hdnTxnFeeTitle"
-        value="(Gas Price * Gas Used by Txns) in MATIC"
+        value="(Gas Price * Gas Used by Txns) in POL"
       />
       <input
         type="hidden"

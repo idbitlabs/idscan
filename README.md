@@ -1,1 +1,3 @@
-# idscan
+# TARGET DATA SCAN : IDBIt ( IDT)
+# Network : Polygon POS
+# Contract : 0x95351dF7dC2A753C8cFa4a0fD7C3Ee9F6D883306

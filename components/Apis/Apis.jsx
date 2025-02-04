@@ -1094,14 +1094,14 @@ const Apis = () => {
                             <p>
                               Stripe billing is auto-renewed by default. Unless
                               you cancel your subscription plan before your
-                              billing date, you authorise us to automatically
+                              billing date, you authorise us to autoPOLally
                               charge the subscription fee for the next billing
                               cycle to your account.
                             </p>
                             <p>
                               The billing portal will provide an auto-billing
                               date where information such as a renewal
-                              subscription term that will begin automatically
+                              subscription term that will begin autoPOLally
                               after the initial subscription term or another
                               renewal term will be reflected in your account
                               unless you cancel or terminate prior to the

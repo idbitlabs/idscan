@@ -4,7 +4,7 @@ import { FaRegCopy } from "react-icons/fa6";
 import { FaRegFileAlt } from "react-icons/fa";
 import { BsArrowRight } from "react-icons/bs";
 
-import { shortenAddress, convertIntoMatic } from "../../utils/index";
+import { shortenAddress, convertIntoPOL } from "../../utils/index";
 import { Waring } from "../index";
 
 const Internal = ({ INTERNAL_TRANSACTION, addressExplor }) => {
@@ -165,7 +165,7 @@ const Internal = ({ INTERNAL_TRANSACTION, addressExplor }) => {
                             </a>
                           </div>
                         </td>
-                        <td>{convertIntoMatic(item.value)} MATIC</td>
+                        <td>{convertIntoPOL(item.value)} POL</td>
                       </tr>
                     ))
                     .slice(0, 25)}

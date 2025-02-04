@@ -30,9 +30,9 @@ export const getBalance = async () => {
   }
 };
 
-export const convertIntoMatic = (amount) => {
-  const matic = ethers.utils.formatEther(amount || String(100000), "ether");
-  return matic;
+export const convertIntoPOL = (amount) => {
+  const POL = ethers.utils.formatEther(amount || String(100000), "ether");
+  return POL;
 };
 
 export const parseErrorMsg = (e) => {

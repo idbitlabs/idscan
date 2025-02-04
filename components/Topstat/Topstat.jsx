@@ -33,7 +33,7 @@ const Topstat = () => {
         type="hidden"
         name="hdnTxnFeeTitle"
         id="hdnTxnFeeTitle"
-        value="(Gas Price * Gas Used by Txns) in MATIC"
+        value="(Gas Price * Gas Used by Txns) in POL"
       />
       <input
         type="hidden"
@@ -256,8 +256,8 @@ const Topstat = () => {
                             class="card-body"
                           >
                             <div class="d-flex align-items-center mb-1">
-                              <div class="flex-grow-1">Top MATIC Sender</div>
-                              <div class="text-end">Total MATIC</div>
+                              <div class="flex-grow-1">Top POL Sender</div>
+                              <div class="text-end">Total POL</div>
                             </div>
                             <div class="d-flex align-items-center mb-1">
                               <div class="flex-grow-1">
@@ -276,7 +276,7 @@ const Topstat = () => {
                                         data-bs-toggle="tooltip"
                                         title="Contract"
                                       ></i>
-                                      Polygon: MATIC Token
+                                      Polygon: POL Token
                                     </span>
                                   </a>
                                 </span>
@@ -294,8 +294,8 @@ const Topstat = () => {
                             </div>
                             <hr class="pb-1" />
                             <div class="d-flex align-items-center mb-1">
-                              <div class="flex-grow-1">Top MATIC Receiver</div>
-                              <div class="text-end">Total MATIC</div>
+                              <div class="flex-grow-1">Top POL Receiver</div>
+                              <div class="text-end">Total POL</div>
                             </div>
                             <div class="d-flex align-items-center mb-1">
                               <div class="flex-grow-1">
@@ -682,8 +682,8 @@ const Topstat = () => {
                             class="card-body"
                           >
                             <div class="d-flex align-items-center mb-1">
-                              <div class="flex-grow-1">Top MATIC Sender</div>
-                              <div class="text-end">Total MATIC</div>
+                              <div class="flex-grow-1">Top POL Sender</div>
+                              <div class="text-end">Total POL</div>
                             </div>
                             <div class="d-flex align-items-center mb-1">
                               <div class="flex-grow-1">
@@ -702,7 +702,7 @@ const Topstat = () => {
                                         data-bs-toggle="tooltip"
                                         title="Contract"
                                       ></i>
-                                      Polygon: MATIC Token
+                                      Polygon: POL Token
                                     </span>
                                   </a>
                                 </span>
@@ -734,8 +734,8 @@ const Topstat = () => {
                             </div>
                             <hr class="pb-1" />
                             <div class="d-flex align-items-center mb-1">
-                              <div class="flex-grow-1">Top MATIC Receiver</div>
-                              <div class="text-end">Total MATIC</div>
+                              <div class="flex-grow-1">Top POL Receiver</div>
+                              <div class="text-end">Total POL</div>
                             </div>
                             <div class="d-flex align-items-center mb-1">
                               <div class="flex-grow-1">
@@ -1120,8 +1120,8 @@ const Topstat = () => {
                           </div>
                           <div id="ContentPlaceHolder1_Div4" class="card-body">
                             <div class="d-flex align-items-center mb-1">
-                              <div class="flex-grow-1">Top MATIC Sender</div>
-                              <div class="text-end">Total MATIC</div>
+                              <div class="flex-grow-1">Top POL Sender</div>
+                              <div class="text-end">Total POL</div>
                             </div>
                             <div class="d-flex align-items-center mb-1">
                               <div class="flex-grow-1">
@@ -1140,7 +1140,7 @@ const Topstat = () => {
                                         data-bs-toggle="tooltip"
                                         title="Contract"
                                       ></i>
-                                      Polygon: MATIC Token
+                                      Polygon: POL Token
                                     </span>
                                   </a>
                                 </span>
@@ -1172,8 +1172,8 @@ const Topstat = () => {
                             </div>
                             <hr class="pb-1" />
                             <div class="d-flex align-items-center mb-1">
-                              <div class="flex-grow-1">Top MATIC Receiver</div>
-                              <div class="text-end">Total MATIC</div>
+                              <div class="flex-grow-1">Top POL Receiver</div>
+                              <div class="text-end">Total POL</div>
                             </div>
                             <div class="d-flex align-items-center mb-1">
                               <div class="flex-grow-1">

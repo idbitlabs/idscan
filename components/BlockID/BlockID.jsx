@@ -4,7 +4,7 @@ import { ethers } from "ethers";
 
 //INETRNAL IMPORT
 import { CONTEXT } from "../../context/ContextProvider";
-import { convertIntoMatic } from "../../utils/index";
+import { convertIntoPOL } from "../../utils/index";
 
 const BlockID = () => {
   const router = useRouter();
@@ -76,7 +76,7 @@ const BlockID = () => {
         type="hidden"
         name="hdnTxnFeeTitle"
         id="hdnTxnFeeTitle"
-        value="(Gas Price * Gas Used by Txns) in MATIC"
+        value="(Gas Price * Gas Used by Txns) in POL"
       />
       <input
         type="hidden"
@@ -210,7 +210,7 @@ const BlockID = () => {
                     Block Reward:
                   </div>
                   <div class="col-md-9">
-                    0<b>.</b>(No Data) MATIC
+                    0<b>.</b>(No Data) POL
                   </div>
                 </div>
 
@@ -268,7 +268,7 @@ const BlockID = () => {
                     <i class="far fa-question-circle me-1"></i>
                     Base Fee Per Gas:
                   </div>
-                  <div class="col-md-9">{value} MATIC</div>
+                  <div class="col-md-9">{value} POL</div>
                 </div>
                 <div class="row mb-4">
                   <div class="col-md-3 text-dt mb-2 mb-md-0">
@@ -276,7 +276,7 @@ const BlockID = () => {
                     Burnt Fees:
                   </div>
                   <div class="col-md-9">
-                    🔥 0<b>.</b>(No Data) MATIC
+                    🔥 0<b>.</b>(No Data) POL
                   </div>
                 </div>
 

@@ -93,7 +93,7 @@ const Table = () => {
                   <a class="d-flex align-items-center gap-1 link-dark" href="#">
                     <div class="d-flex gap-1">
                       <div class="hash-tag text-truncate fw-medium">
-                        (PoS) Tether USD
+                        (PoS) IDBit IDT
                       </div>
                       <span class="text-muted">
                         (USDT)
@@ -114,22 +114,22 @@ const Table = () => {
                     data-bs-toggle="tooltip"
                     data-bs-title="$1.001"
                   >
-                    $1.001
+                    $0.000252
                   </div>
-                  <div class="text-muted small">1.055062 MATIC</div>
+                  <div class="text-muted small">0.000707POL</div>
                 </td>
-                <td>1.4%</td>
-                <td>$44,755,747,529.00</td>
-                <td>$97,647,532,286.00&nbsp;&nbsp;&nbsp;</td>
+                <td>15%</td>
+                <td>$44,755.00</td>
+                <td>$97,647,000.00&nbsp;&nbsp;&nbsp;</td>
                 <td>$467,253,858.00&nbsp;&nbsp;&nbsp;</td>
                 <td>
-                  <div>3,119,940</div>
+                  <div>1,328</div>
                   <div
                     class="text-danger small d-inline"
                     data-bs-toggle="tooltip"
-                    data-bs-title="A -0.015% decrease in Token holders from previous day count of 3120419"
+                    data-bs-title="A +0.015% decrease in Token holders from previous day count of 312"
                   >
-                    -0.015%
+                    +0.015%
                   </div>
                 </td>
               </tr>

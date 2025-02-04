@@ -42,9 +42,9 @@ const Table = () => {
                   </a>
                 </span>
               </td>
-              <td>Polygon: MATIC Token</td>
+              <td>Polygon: POL Token</td>
               <td>
-                8,767,507,033<b>.</b>96480922 MATIC
+                8,767,507,033<b>.</b>96480922 POL
               </td>
               <td>90.99931930%</td>
               <td>333,893</td>

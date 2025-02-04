@@ -98,7 +98,7 @@ const Table = () => {
                   0.8.24
                 </span>
               </td>
-              <td>0 MATIC</td>
+              <td>0 POL</td>
               <td>6</td>
               <td>
                 <div class="d-flex gap-1">

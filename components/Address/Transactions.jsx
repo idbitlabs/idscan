@@ -10,7 +10,7 @@ import { TbBulb } from "react-icons/tb";
 import { BsArrowRight } from "react-icons/bs";
 
 //IMTERNAL IMPORT
-import { shortenAddress, convertIntoMatic } from "../../utils/index";
+import { shortenAddress, convertIntoPOL } from "../../utils/index";
 import { Waring } from "../index";
 
 const Transactions = ({ transactions, readload }) => {
@@ -243,10 +243,10 @@ const Transactions = ({ transactions, readload }) => {
                             </div>
                           </td>
                           <td class="text-nowrap">
-                            {convertIntoMatic(item.value)} MATIC
+                            {convertIntoPOL(item.value)} POL
                           </td>
                           <td class="small text-muted showTxnFee ">
-                            {convertIntoMatic(item.gasPrice)}
+                            {convertIntoPOL(item.gasPrice)}
                           </td>
                         </tr>
                       ))

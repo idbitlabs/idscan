@@ -51,7 +51,7 @@ const Myaccount = () => {
         type="hidden"
         name="hdnTxnFeeTitle"
         id="hdnTxnFeeTitle"
-        value="(Gas Price * Gas Used by Txns) in MATIC"
+        value="(Gas Price * Gas Used by Txns) in POL"
       />
       <input
         type="hidden"
@@ -112,14 +112,14 @@ const Myaccount = () => {
             <div class="card p-4">
               <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
                 <div class="text-break">
-                  <div class="fw-medium fs-5">daulathussain</div>
+                  <div class="fw-medium fs-5">mrtiobit</div>
                   <div class="text-muted">
                     <a
                       href="/cdn-cgi/l/email-protection"
                       class="__cf_email__"
                       data-cfemail="f39792869f9287c3c3cac1b3949e929a9fdd909c9e"
                     >
-                      theblockchaincoders@gmail.com
+                      idt@idbit.org
                     </a>
                   </div>
                 </div>
@@ -297,7 +297,7 @@ const Myaccount = () => {
                     Your username:
                   </div>
                   <div class="col-md-8">
-                    <strong>daulathussain</strong>
+                    <strong>mrtiobit</strong>
                   </div>
                 </div>
                 <hr />
@@ -316,7 +316,7 @@ const Myaccount = () => {
                           class="__cf_email__"
                           data-cfemail="513530243d30256161686311363c30383d7f323e3c"
                         >
-                          theblockchaincoders@gmail.com
+                          idt@idbit.org
                         </a>
                       </strong>
                       <a
@@ -381,10 +381,10 @@ const Myaccount = () => {
                     <i class="far fa-wallet fa-fw">
                       <FaRegFolderOpen />
                     </i>{" "}
-                    Total MATIC Balance (Watch List):
+                    Total POL Balance (Watch List):
                   </div>
                   <div class="col-md-8">
-                    0 MATIC <span class="fs-sm text-muted">($0.00)</span>
+                    0 POL <span class="fs-sm text-muted">($0.00)</span>
                   </div>
                 </div>
                 <hr />

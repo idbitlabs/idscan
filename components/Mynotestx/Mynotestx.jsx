@@ -58,7 +58,7 @@ const Mynotestx = () => {
         type="hidden"
         name="hdnTxnFeeTitle"
         id="hdnTxnFeeTitle"
-        value="(Gas Price * Gas Used by Txns) in MATIC"
+        value="(Gas Price * Gas Used by Txns) in POL"
       />
       <input
         type="hidden"
@@ -118,14 +118,14 @@ const Mynotestx = () => {
             <div class="card p-4">
               <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
                 <div class="text-break">
-                  <div class="fw-medium fs-5">daulathussain</div>
+                  <div class="fw-medium fs-5">mrtiobit</div>
                   <div class="text-muted">
                     <a
                       href="/cdn-cgi/l/email-protection"
                       class="__cf_email__"
                       data-cfemail="d5b1b4a0b9b4a1e5e5ece795b2b8b4bcb9fbb6bab8"
                     >
-                      theblockchaincoders@gmail.com
+                      idt@idbit.org
                     </a>
                   </div>
                 </div>

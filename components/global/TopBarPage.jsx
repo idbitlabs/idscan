@@ -5,9 +5,9 @@ const TopBarPage = () => {
 <section id="masterTopBar" class="sticky-top bg-white border-bottom py-2 d-print-none">
     <div class="container-xxl d-flex align-items-center justify-content-between">
     <div id="ethPrice" class="d-none d-md-flex align-items-center gap-4 w-100 fs-sm">
-    <div class="text-muted"><span class="text-muted">MATIC Price:</span> 
+    <div class="text-muted"><span class="text-muted">POL Price:</span> 
     
-    <a href="/chart/maticprice">$0.95</a>
+    <a href="/chart/POLprice">$0.95</a>
     <span data-bs-toggle="tooltip" data-bs-placement="top" title="Changes in the last 24 hours">
         <span class="text-success"> +2.32%</span></span></div><div class="text-muted d-none d-lg-block"><i class="fad fa-gas-pump me-1"></i> Gas: <span id="spanGasTooltip" data-bs-toggle="tooltip" data-bs-html="true"><a href="/gastracker"><span class="gasPricePlaceHolder">49</span> Gwei</a></span></div>
     </div>

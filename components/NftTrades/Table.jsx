@@ -385,7 +385,7 @@ const Table = () => {
                   <td>
                     <span class="text-success">Bought</span>
                   </td>
-                  <td>0.1 MATIC ($0.12)</td>
+                  <td>0.1 POL ($0.12)</td>
                   <td>
                     <div class="d-flex align-items-center gap-1">
                       <img

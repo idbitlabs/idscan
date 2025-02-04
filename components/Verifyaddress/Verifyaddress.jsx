@@ -33,7 +33,7 @@ const Verifyaddress = () => {
         type="hidden"
         name="hdnTxnFeeTitle"
         id="hdnTxnFeeTitle"
-        value="(Gas Price * Gas Used by Txns) in MATIC"
+        value="(Gas Price * Gas Used by Txns) in POL"
       />
       <input
         type="hidden"
@@ -168,7 +168,7 @@ const Verifyaddress = () => {
                   </div>
                   <div class="modal-body ms-1">
                     <p class="mt-1 mb-2">
-                      We are not able to automatically verify and assign the
+                      We are not able to autoPOLally verify and assign the
                       ownership of this contract address. Please refer to and
                       follow the instructions in our article
                       <a href="https://info.polygonscan.com//what-is-contract-created-by-contract/">

@@ -23,12 +23,12 @@ const GameModel = () => {
             The Best Crypto Casino, 2000+ Slots, 200+ Token.{" "}
             <span class="badge bg-primary bg-opacity-10 border border-primary border-opacity-25 text-primary fw-medium rounded-pill">
               {" "}
-              Claim 1000,000 Matic
+              Claim 1000,000 POL
             </span>
           </div>
           <p class="mb-0">
-            Daily free Spin 50000 Matic ,760% Deposit Bonus, 20%Rakeback, And
-            Get 1000000 Matic free bonus on BC.Game
+            Daily free Spin 50000 POL ,760% Deposit Bonus, 20%Rakeback, And
+            Get 1000000 POL free bonus on BC.Game
           </p>
         </a>
       </span>
@@ -46,7 +46,7 @@ const GameModel = () => {
             <span class="fs-6 fw-medium">Сoins.game</span>
           </div>
           <div class="text-primary fw-medium d-inline-block mb-2">
-            Everyday giveaways up to 100 000 MATIC, Lucky Spins.{" "}
+            Everyday giveaways up to 100 000 POL, Lucky Spins.{" "}
             <span class="badge bg-primary bg-opacity-10 border border-primary border-opacity-25 text-primary fw-medium rounded-pill">
               {" "}
               Spin now!

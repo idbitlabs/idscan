@@ -58,7 +58,7 @@ const MynotesAddress = () => {
         type="hidden"
         name="hdnTxnFeeTitle"
         id="hdnTxnFeeTitle"
-        value="(Gas Price * Gas Used by Txns) in MATIC"
+        value="(Gas Price * Gas Used by Txns) in POL"
       />
       <input
         type="hidden"
@@ -118,14 +118,14 @@ const MynotesAddress = () => {
             <div class="card p-4">
               <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
                 <div class="text-break">
-                  <div class="fw-medium fs-5">daulathussain</div>
+                  <div class="fw-medium fs-5">mrtiobit</div>
                   <div class="text-muted">
                     <a
                       href="/cdn-cgi/l/email-protection"
                       class="__cf_email__"
                       data-cfemail="5e3a3f2b323f2a6e6e676c1e39333f3732703d3133"
                     >
-                      theblockchaincoders@gmail.com
+                      idt@idbit.org
                     </a>
                   </div>
                 </div>

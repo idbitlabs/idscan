@@ -43,7 +43,7 @@ const Input = () => {
         type="hidden"
         name="hdnTxnFeeTitle"
         id="hdnTxnFeeTitle"
-        defaultValue="(Gas Price * Gas Used by Txns) in MATIC"
+        defaultValue="(Gas Price * Gas Used by Txns) in POL"
       />
       <input
         type="hidden"

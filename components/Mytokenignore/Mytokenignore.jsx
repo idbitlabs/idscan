@@ -59,7 +59,7 @@ const Mytokenignore = () => {
         type="hidden"
         name="hdnTxnFeeTitle"
         id="hdnTxnFeeTitle"
-        value="(Gas Price * Gas Used by Txns) in MATIC"
+        value="(Gas Price * Gas Used by Txns) in POL"
       />
       <input
         type="hidden"
@@ -119,14 +119,14 @@ const Mytokenignore = () => {
             <div class="card p-4">
               <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
                 <div class="text-break">
-                  <div class="fw-medium fs-5">daulathussain</div>
+                  <div class="fw-medium fs-5">mrtiobit</div>
                   <div class="text-muted">
                     <a
                       href="/cdn-cgi/l/email-protection"
                       class="__cf_email__"
                       data-cfemail="4f2b2e3a232e3b7f7f767d0f28222e2623612c2022"
                     >
-                      theblockchaincoders@gmail.com
+                      idt@idbit.org
                     </a>
                   </div>
                 </div>

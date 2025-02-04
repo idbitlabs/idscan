@@ -33,7 +33,7 @@ const Brandassets = () => {
         type="hidden"
         name="hdnTxnFeeTitle"
         id="hdnTxnFeeTitle"
-        value="(Gas Price * Gas Used by Txns) in MATIC"
+        value="(Gas Price * Gas Used by Txns) in POL"
       />
       <input
         type="hidden"
@@ -45,7 +45,7 @@ const Brandassets = () => {
         type="hidden"
         name="hdnSiteName"
         id="hdnSiteName"
-        value="InfinityScan"
+        value="Idbitscan"
       />
       <input
         type="hidden"
@@ -57,7 +57,7 @@ const Brandassets = () => {
         type="hidden"
         name="hdnSiteShortUrl"
         id="hdnSiteShortUrl"
-        value="InfinityScan.com"
+        value="Idbitscan.com"
       />
       <div class="container-xxl position-relative pt-12 pb-16">
         <div
@@ -84,7 +84,7 @@ const Brandassets = () => {
         <section class="row justify-content-center">
           <div class="col-md-10">
             <div class="col-lg-8 col-xl-6 mx-auto text-md-center">
-              <h1 class="h2 fw-bold">InfinityScan Brand Assets & Guidelines</h1>
+              <h1 class="h2 fw-bold">Idbitscan Brand Assets & Guidelines</h1>
               <p class="fs-base">
                 Thank you for your support and loving our work. Below, we have
                 provided a few guidelines for using our brand assets.
@@ -93,38 +93,38 @@ const Brandassets = () => {
             <hr class="my-10" />
             <h2 class="h4">Our Brand Name</h2>
             <p class="mb-10">
-              "InfinityScan" is one word and spelled with a capital P for
+              "Idbitscan" is one word and spelled with a capital P for
               "Polygon" and capital S for "Scan".
             </p>
             <h2 class="h4">Branding Guidelines</h2>
             <p>
-              You may use the InfinityScan name and logo in your website or app
-              as long as you adhere to the InfinityScan branding guidelines.
+              You may use the Idbitscan name and logo in your website or app
+              as long as you adhere to the Idbitscan branding guidelines.
             </p>
             <ul class="list-xs-space">
               <li>
-                Do not alter the InfinityScan logo. The logo is to be used as
+                Do not alter the Idbitscan logo. The logo is to be used as
                 provided.
               </li>
               <li>
-                Do not combine InfinityScan logo with other images without
+                Do not combine Idbitscan logo with other images without
                 consent.
               </li>
               <li>
-                Do not use the InfinityScan brand in any way that implies a
+                Do not use the Idbitscan brand in any way that implies a
                 relationship, affiliation, or endorsement. For example, "we
-                partner with InfinityScan."
+                partner with Idbitscan."
               </li>
               <li>
-                Do reference InfinityScan as follows:
+                Do reference Idbitscan as follows:
                 <ul class="mt-2">
-                  <li>"Powered by InfinityScan"</li>
-                  <li>"Data provided by InfinityScan"</li>
-                  <li>"Source: InfinityScan"</li>
+                  <li>"Powered by Idbitscan"</li>
+                  <li>"Data provided by Idbitscan"</li>
+                  <li>"Source: Idbitscan"</li>
                 </ul>
               </li>
               <li>
-                Do not use the InfinityScan brand in conjunction with any
+                Do not use the Idbitscan brand in conjunction with any
                 illegal and unlawful activity, promotion, and product.
               </li>
             </ul>
@@ -223,7 +223,7 @@ const Brandassets = () => {
               By using our brand assets, you agree to adhere to our Branding
               Guidelines as well as our
               <a href="/terms">Terms and Conditions</a>. For further information
-              about use of the InfinityScan name that is not covered by the
+              about use of the Idbitscan name that is not covered by the
               Branding Guidelines, please <a href="/contactus">Contact Us</a>.
             </p>
           </div>

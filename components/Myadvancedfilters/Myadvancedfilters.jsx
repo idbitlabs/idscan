@@ -58,7 +58,7 @@ const Myadvancedfilters = () => {
         type="hidden"
         name="hdnTxnFeeTitle"
         id="hdnTxnFeeTitle"
-        value="(Gas Price * Gas Used by Txns) in MATIC"
+        value="(Gas Price * Gas Used by Txns) in POL"
       />
       <input
         type="hidden"
@@ -118,14 +118,14 @@ const Myadvancedfilters = () => {
             <div class="card p-4">
               <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
                 <div class="text-break">
-                  <div class="fw-medium fs-5">daulathussain</div>
+                  <div class="fw-medium fs-5">mrtiobit</div>
                   <div class="text-muted">
                     <a
                       href="/cdn-cgi/l/email-protection"
                       class="__cf_email__"
                       data-cfemail="9bfffaeef7faefababa2a9dbfcf6faf2f7b5f8f4f6"
                     >
-                      theblockchaincoders@gmail.com
+                      idt@idbit.org
                     </a>
                   </div>
                 </div>

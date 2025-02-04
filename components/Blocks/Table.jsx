@@ -4,7 +4,7 @@ import { FaArrowRightLong, FaRegCopy } from "react-icons/fa6";
 //INTERNAL IMPORT
 import {
   shortenAddress,
-  convertIntoMatic,
+  convertIntoPOL,
   getBlockReward,
 } from "../../utils/index";
 
@@ -35,7 +35,7 @@ const Table = ({ blocks, PROVIDER }) => {
               scope="col"
               title="Percentage of FeesBurnt/TxFees Earned (excluding base block reward)"
             >
-              Burnt Fees (MATIC)
+              Burnt Fees (POL)
             </th>
           </tr>
         </thead>
@@ -71,7 +71,7 @@ const Table = ({ blocks, PROVIDER }) => {
                 </span>
               </td>
               <td>
-                <div>{convertIntoMatic(block.blockGasUsed)}</div>
+                <div>{convertIntoPOL(block.blockGasUsed)}</div>
                 <div class="progress mt-1" style={{ height: "2px" }}>
                   <div
                     class="progress-bar bg-primary"
@@ -80,7 +80,7 @@ const Table = ({ blocks, PROVIDER }) => {
                   ></div>
                 </div>
               </td>
-              <td>{convertIntoMatic(block?.blockGasLimit)}</td>
+              <td>{convertIntoPOL(block?.blockGasLimit)}</td>
               <td>{block.blockDifficulty}</td>
               <td>{block.blockReward}</td>
               <td>

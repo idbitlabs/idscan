@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FaWallet } from "react-icons/fa";
 
-import { shortenAddress, convertIntoMatic } from "../../utils/index";
+import { shortenAddress, convertIntoPOL } from "../../utils/index";
 const TokenLists = ({ ERC20_TOKEN_TRANSFER, addressExplor }) => {
   const [transactions, setTransactions] = useState();
 
@@ -99,7 +99,7 @@ const TokenLists = ({ ERC20_TOKEN_TRANSFER, addressExplor }) => {
                     </div>
                     <div class="text-end">
                       <div class="list-usd-value">
-                        {convertIntoMatic(token.value)}
+                        {convertIntoPOL(token.value)}
                       </div>
                       <div class="list-usd-rate small text-muted">@0.9992</div>
                     </div>

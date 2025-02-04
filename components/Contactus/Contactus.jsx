@@ -33,7 +33,7 @@ const Contactus = () => {
         type="hidden"
         name="hdnTxnFeeTitle"
         id="hdnTxnFeeTitle"
-        value="(Gas Price * Gas Used by Txns) in MATIC"
+        value="(Gas Price * Gas Used by Txns) in POL"
       />
       <input
         type="hidden"
@@ -318,7 +318,7 @@ const Contactus = () => {
                   <li class="list-group-item px-0">
                     <a
                       rel="nofollow noopener"
-                      href="https://docs.matic.network/docs/develop/wallets/walletconnect"
+                      href="https://docs.POL.network/docs/develop/wallets/walletconnect"
                       target="_blank"
                     >
                       WalletConnect
@@ -356,17 +356,17 @@ const Contactus = () => {
                   <li class="list-group-item px-0">
                     <a
                       rel="nofollow noopener"
-                      href="https://blog.matic.network/deposits-and-withdrawals-on-matic-network-walkthrough-guide/"
+                      href="https://blog.POL.network/deposits-and-withdrawals-on-POL-network-walkthrough-guide/"
                       target="_blank"
                     >
-                      How to receive and send MATIC on POLYGON
+                      How to receive and send POL on POLYGON
                       <i class="far fa-arrow-up-right-from-square text-secondary ms-1"></i>
                     </a>
                   </li>
                   <li class="list-group-item px-0">
                     <a
                       rel="nofollow noopener"
-                      href="https://wiki.polygon.technology/docs/develop/metamask/config-matic"
+                      href="https://wiki.polygon.technology/docs/develop/metamask/config-POL"
                       target="_blank"
                     >
                       Connecting MetaMask to POLYGON Mainnet
@@ -376,7 +376,7 @@ const Contactus = () => {
                   <li class="list-group-item px-0">
                     <a
                       rel="nofollow noopener"
-                      href="https://wiki.polygon.technology/docs/develop/ethereum-matic/pos/getting-started/"
+                      href="https://wiki.polygon.technology/docs/develop/ethereum-POL/pos/getting-started/"
                       target="_blank"
                     >
                       Polygon PoS Chain Official Site

@@ -180,7 +180,7 @@ const Table = () => {
                   </a>
                 </span>
               </td>
-              <td class="text-nowrap">0 MATIC</td>
+              <td class="text-nowrap">0 POL</td>
             </tr>
           ))}
         </tbody>

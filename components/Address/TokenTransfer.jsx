@@ -4,7 +4,7 @@ import { FaEye } from "react-icons/fa";
 import { FaRegCopy } from "react-icons/fa6";
 import { BsArrowRight } from "react-icons/bs";
 
-import { shortenAddress, convertIntoMatic } from "../../utils/index";
+import { shortenAddress, convertIntoPOL } from "../../utils/index";
 import { Waring } from "../index";
 const TokenTransfer = ({ ERC20_TOKEN_TRANSFER, addressExplor }) => {
   const [transactions, setTransactions] = useState();
@@ -230,7 +230,7 @@ const TokenTransfer = ({ ERC20_TOKEN_TRANSFER, addressExplor }) => {
                           </a>
                         </div>
                       </td>
-                      <td>{convertIntoMatic(item.value)}</td>
+                      <td>{convertIntoPOL(item.value)}</td>
                       <td>
                         <a class="d-flex align-items-center gap-1 link-dark">
                           <div class="d-flex align-items-center gap-1 link-dark">

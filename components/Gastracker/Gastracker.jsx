@@ -35,7 +35,7 @@ const Gastracker = () => {
         type="hidden"
         name="hdnTxnFeeTitle"
         id="hdnTxnFeeTitle"
-        value="(Gas Price * Gas Used by Txns) in MATIC"
+        value="(Gas Price * Gas Used by Txns) in POL"
       />
       <input
         type="hidden"
@@ -113,7 +113,7 @@ const Gastracker = () => {
                           >
                             🔥 Burnt Fees:{" "}
                           </span>
-                          <span>19,720.87 MATIC</span>
+                          <span>19,720.87 POL</span>
                         </span>
                       </div>
                     </a>
@@ -452,7 +452,7 @@ const Gastracker = () => {
                         </td>
                         <td>
                           <span class="text-muted" title="Fees">
-                            11.40 MATIC ($9.02)
+                            11.40 POL ($9.02)
                           </span>
                         </td>
                         <td>
@@ -561,7 +561,7 @@ const Gastracker = () => {
 
                         <td>
                           <span class="text-muted" title="Fees">
-                            3.10 MATIC ($2.45)
+                            3.10 POL ($2.45)
                           </span>
                         </td>
                         <td>
@@ -647,7 +647,7 @@ const Gastracker = () => {
             <span>
               Gas refers to the fee required to successfully conduct a
               transaction on the Polygon PoS Chain blockchain. Gas fees are paid
-              in MATIC and denominated in Gwei. Learn more about Gas in our{" "}
+              in POL and denominated in Gwei. Learn more about Gas in our{" "}
               <a
                 target="_blank"
                 href="https://info.polygonscan.com//what-is-gas-fee/"

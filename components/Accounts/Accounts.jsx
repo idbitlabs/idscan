@@ -17,7 +17,7 @@ const Accounts = () => {
             <div>
               More than
               <a>1,999,999 accounts found</a>
-              (9,634,695,183<b>.</b>719 MATIC)
+              (9,634,695,183<b>.</b>719 POL)
               <span class="d-block text-muted small">
                 (Showing the last 10,000 top accounts only)
               </span>

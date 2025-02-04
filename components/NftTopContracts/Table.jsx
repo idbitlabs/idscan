@@ -91,16 +91,16 @@ const Table = () => {
                   ERC-721
                 </span>
               </td>
-              <td>4,000 MATIC</td>
+              <td>4,000 POL</td>
               <td>
                 <span class="text-success">0.00%</span>
               </td>
               <td>4</td>
               <td class=" text-end">
-                <div class="text-end">1000 MATIC</div>
+                <div class="text-end">1000 POL</div>
               </td>
               <td class=" text-end">
-                <div class="text-end">1000 MATIC</div>
+                <div class="text-end">1000 POL</div>
               </td>
               <td>6,121</td>
               <td>232</td>

@@ -7,7 +7,7 @@ import { CgMenuRight } from "react-icons/cg";
 
 //INTERNAL IMPORT
 import { CONTEXT } from "../../context/ContextProvider";
-import { shortenAddress, convertIntoMatic } from "../../utils/index";
+import { shortenAddress, convertIntoPOL } from "../../utils/index";
 import { Loader } from "../index";
 
 const LatestTransactions = () => {
@@ -112,12 +112,12 @@ const LatestTransactions = () => {
                         in {block.blockTimeStamp} secs
                       </span>
                       <span class="d-inline-block d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1 py-sm-1.5 px-1.5 px-sm-2">
-                        {convertIntoMatic(block.blockGasUsed)} IDT
+                        {convertIntoPOL(block.blockGasUsed)} IDT
                       </span>
                     </div>
                     <div class="d-none d-sm-block text-end ms-2 ms-sm-0">
                       <span class="badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1.5 px-2">
-                        {convertIntoMatic(block.blockGasUsed)} IDT
+                        {convertIntoPOL(block.blockGasUsed)} IDT
                       </span>
                     </div>
                   </div>
@@ -227,7 +227,7 @@ const LatestTransactions = () => {
                       title="Amount"
                     >
                       <span class="badge border border-dark dark:border-white border-opacity-15 text-dark py-1.5 px-2 fw-medium">
-                        {convertIntoMatic(transaction?.value)} IDT
+                        {convertIntoPOL(transaction?.value)} IDT
                       </span>
                     </div>
                   </div>

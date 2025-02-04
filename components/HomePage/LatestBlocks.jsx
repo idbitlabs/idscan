@@ -1,7 +1,7 @@
 import React from "react";
 import { FaRegSquare, FaRegFileAlt, FaExternalLinkAlt } from "react-icons/fa";
 
-import { shortenAddress, convertIntoMatic } from "../../utils/index";
+import { shortenAddress, convertIntoPOL } from "../../utils/index";
 
 const LatestBlocks = ({ Data }) => {
   return (

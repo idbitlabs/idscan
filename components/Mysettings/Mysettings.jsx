@@ -58,7 +58,7 @@ const Mysettings = () => {
         type="hidden"
         name="hdnTxnFeeTitle"
         id="hdnTxnFeeTitle"
-        value="(Gas Price * Gas Used by Txns) in MATIC"
+        value="(Gas Price * Gas Used by Txns) in POL"
       />
       <input
         type="hidden"
@@ -136,14 +136,14 @@ const Mysettings = () => {
               <div class="card p-4">
                 <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
                   <div class="text-break">
-                    <div class="fw-medium fs-5">daulathussain</div>
+                    <div class="fw-medium fs-5">mrtiobit</div>
                     <div class="text-muted">
                       <a
                         href="/cdn-cgi/l/email-protection"
                         class="__cf_email__"
                         data-cfemail="f39792869f9287c3c3cac1b3949e929a9fdd909c9e"
                       >
-                        theblockchaincoders@gmail.com
+                        idt@idbit.org
                       </a>
                     </div>
                   </div>
@@ -324,7 +324,7 @@ const Mysettings = () => {
                       Your Username
                     </div>
                     <div class="col-md-8">
-                      <strong class="fw-medium"> daulathussain </strong>
+                      <strong class="fw-medium"> mrtiobit </strong>
                     </div>
                   </div>
                   <hr />

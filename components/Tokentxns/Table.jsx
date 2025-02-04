@@ -180,8 +180,8 @@ const Table = () => {
                     class="rounded-circle"
                   />
                   <div class="d-flex gap-1">
-                    <span class="hash-tag text-truncate">Infinity</span>
-                    <span class="text-muted">(INF)</span>
+                    <span class="hash-tag text-truncate">Idbitscan</span>
+                    <span class="text-muted">(IDT)</span>
                   </div>
                 </a>
               </td>

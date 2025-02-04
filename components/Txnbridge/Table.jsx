@@ -147,8 +147,8 @@ const Table = () => {
                 </div>
               </td>
               <td>
-                <span data-bs-toggle="tooltip" data-bs-title="0 MATIC">
-                  0 MATIC
+                <span data-bs-toggle="tooltip" data-bs-title="0 POL">
+                  0 POL
                 </span>
               </td>
               <td class="small text-muted showTxnFee ">

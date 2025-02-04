@@ -33,7 +33,7 @@ const Vyper = () => {
         type="hidden"
         name="hdnTxnFeeTitle"
         id="hdnTxnFeeTitle"
-        value="(Gas Price * Gas Used by Txns) in MATIC"
+        value="(Gas Price * Gas Used by Txns) in POL"
       />
       <input
         type="hidden"
@@ -348,10 +348,10 @@ const Vyper = () => {
                   <p class="fs-sm text-muted mt-2 mb-0">
                     Tip: Try compiling the sample
                     <a
-                      href="https://raw.githubusercontent.com/prysmaticlabs/prysm/62f304e668bc78c4078cd376ba141b58eea777ef/contracts/deposit-contract/depositContract.v.py"
+                      href="https://raw.githubusercontent.com/prysPOLlabs/prysm/62f304e668bc78c4078cd376ba141b58eea777ef/contracts/deposit-contract/depositContract.v.py"
                       target="_blank"
                     >
-                      Prysmaticlabs Contract
+                      PrysPOLlabs Contract
                     </a>
                     (for vyper version 0.1.0b7)
                   </p>

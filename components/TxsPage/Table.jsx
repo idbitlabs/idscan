@@ -2,7 +2,7 @@ import React from "react";
 import { IoEye } from "react-icons/io5";
 import { FaArrowRightLong, FaRegCopy } from "react-icons/fa6";
 
-import { shortenAddress, convertIntoMatic } from "../../utils/index";
+import { shortenAddress, convertIntoPOL } from "../../utils/index";
 
 const Table = ({ transactions }) => {
   console.log(transactions);
@@ -148,12 +148,12 @@ const Table = ({ transactions }) => {
                 </div>
               </td>
               <td>
-                <span data-bs-toggle="tooltip" data-bs-title="0 MATIC">
-                  {convertIntoMatic(item.value)}
+                <span data-bs-toggle="tooltip" data-bs-title="0 POL">
+                  {convertIntoPOL(item.value)}
                 </span>
               </td>
               <td class="small text-muted showTxnFee ">
-                {convertIntoMatic(item.gasLimit)}
+                {convertIntoPOL(item.gasLimit)}
               </td>
             </tr>
           ))}

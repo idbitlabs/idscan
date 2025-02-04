@@ -3,7 +3,7 @@ import React, { useState, useEffect, useContext } from "react";
 import { CONTEXT } from "../../context/ContextProvider";
 import Input from "./Input";
 import Banner from "./Banner";
-import { shortenAddress, convertIntoMatic } from "../../utils/index";
+import { shortenAddress, convertIntoPOL } from "../../utils/index";
 
 const BalancecheckTool = () => {
   const { USER_BALANCE, TOKEN_BALANCE, TOKEN_SUPPLY_ERC20 } =
@@ -209,9 +209,9 @@ const BalancecheckTool = () => {
 
           <div class="col-lg-9 col-xxl-10">
             <div class="mb-5">
-              <h2 class="fs-default">Account Balance Checker (MATIC)</h2>
+              <h2 class="fs-default">Account Balance Checker (POL)</h2>
               <p>
-                You can Lookup the Account (MATIC) Historical Balance at a
+                You can Lookup the Account (POL) Historical Balance at a
                 specific Block No or Date
               </p>
 
@@ -234,7 +234,7 @@ const BalancecheckTool = () => {
                         required
                       >
                         <option selected="selected" value="1">
-                          MATIC
+                          POL
                         </option>
                         <option value="2">Token (ERC-20)</option>
                         <option value="3">Token Supply</option>
@@ -318,11 +318,11 @@ const BalancecheckTool = () => {
                       <div class="row mb-4">
                         <div class="col-xl-6">
                           <label class="form-label">
-                            Supply / Token Balance / Matic
+                            Supply / Token Balance / POL
                           </label>
                           <input
                             class="js-range-datepicker form-control flatpickr-input w-100"
-                            value={convertIntoMatic(balance)}
+                            value={convertIntoPOL(balance)}
                           />
                         </div>
                       </div>

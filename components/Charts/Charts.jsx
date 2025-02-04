@@ -26,7 +26,7 @@ const Charts = () => {
               <h2 class="fs-base fw-medium mb-5">Market Data</h2>
               <div class="row g-5">
                 <div class="col-sm-6 col-xl-4">
-                  <a class="card link-dark h-100" href="/chart/maticprice">
+                  <a class="card link-dark h-100" href="/chart/POLprice">
                     <div class="card-body">
                       <h3 class="h6 fw-normal mb-6">
                         IDT Daily Price (USD) Chart
@@ -34,7 +34,7 @@ const Charts = () => {
                       <img
                         src="./assets/poly/images/svg/charts/daily-price.svg?v=24.2.2.0"
                         class="img-fluid dark:opacity-50 d-block mx-auto"
-                        alt="MATIC price chart"
+                        alt="POL price chart"
                       />
                     </div>
                   </a>
@@ -43,12 +43,12 @@ const Charts = () => {
                   <a class="card link-dark h-100" href="/chart/marketcap">
                     <div class="card-body">
                       <h3 class="h6 fw-normal mb-6">
-                        MATIC Market Capitalization Chart
+                        POL Market Capitalization Chart
                       </h3>
                       <img
                         src="./assets/poly/images/svg/charts/market-cap.svg?v=24.2.2.0"
                         class="img-fluid dark:opacity-50 d-block mx-auto"
-                        alt="MATIC Market Capitalization Chart"
+                        alt="POL Market Capitalization Chart"
                       />
                     </div>
                   </a>

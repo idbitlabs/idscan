@@ -4,7 +4,7 @@ import { FaEye } from "react-icons/fa";
 import { FaRegCopy } from "react-icons/fa6";
 import { FaRegFileAlt } from "react-icons/fa";
 
-import { shortenAddress, convertIntoMatic } from "../../utils/index";
+import { shortenAddress, convertIntoPOL } from "../../utils/index";
 import { Waring } from "../index";
 const NFTTransfer = ({ ERC721_TOKEN_TRANSFER, addressExplor }) => {
   const [transactions, setTransactions] = useState();

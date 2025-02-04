@@ -33,7 +33,7 @@ const Multichain = () => {
             </div>
           </div>
           <div class="js-tokens row g-2">
-            <div class="js-chain col-6 col-md-3 col-xl-2 " data-chain="MATIC">
+            <div class="js-chain col-6 col-md-3 col-xl-2 " data-chain="POL">
               <a
                 href="javascript:;"
                 class="card bg-light hover:bg-secondary hover:border-secondary hover:border-opacity-50 transition-all h-100 shadow-none rounded p-2"
@@ -43,7 +43,7 @@ const Multichain = () => {
                     <img
                       class="js-chain-icon"
                       width="18"
-                      src="https://images.blockscan.com/chain-logos/matic.svg"
+                      src="https://images.blockscan.com/chain-logos/POL.svg"
                       alt="Polygon"
                     />
                   </div>
@@ -208,7 +208,7 @@ const Multichain = () => {
                       href="https://polygonscan.com"
                       target="_blank"
                     >
-                      MATIC
+                      POL
                     </a>
                   </td>
                   <td>
@@ -224,7 +224,7 @@ const Multichain = () => {
                         class="hash-tag text-truncate"
                         style={{ maxWidth: "15rem" }}
                       >
-                        Polygon <span class="text-muted">(MATIC)</span>
+                        Polygon <span class="text-muted">(POL)</span>
                       </span>
                     </div>
                   </td>
@@ -278,7 +278,7 @@ const Multichain = () => {
                       href="https://polygonscan.com"
                       target="_blank"
                     >
-                      MATIC
+                      POL
                     </a>
                   </td>
                   <td>
@@ -314,7 +314,7 @@ const Multichain = () => {
                       href="https://polygonscan.com"
                       target="_blank"
                     >
-                      MATIC
+                      POL
                     </a>
                   </td>
                   <td>
@@ -350,7 +350,7 @@ const Multichain = () => {
                       href="https://polygonscan.com"
                       target="_blank"
                     >
-                      MATIC
+                      POL
                     </a>
                   </td>
                   <td>
@@ -386,7 +386,7 @@ const Multichain = () => {
                       href="https://polygonscan.com"
                       target="_blank"
                     >
-                      MATIC
+                      POL
                     </a>
                   </td>
                   <td>
@@ -422,7 +422,7 @@ const Multichain = () => {
                       href="https://polygonscan.com"
                       target="_blank"
                     >
-                      MATIC
+                      POL
                     </a>
                   </td>
                   <td>

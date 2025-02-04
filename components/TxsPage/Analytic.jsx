@@ -44,9 +44,9 @@ const Analytic = () => {
               <span
                 class="fs-5"
                 data-bs-toggle="tooltip"
-                data-bs-title="45,944.002691760476117863 MATIC"
+                data-bs-title="45,944.002691760476117863 POL"
               >
-                45,944.00 MATIC
+                45,944.00 POL
               </span>
               <span class="text-nowrap text-success small">(10.68%)</span>
             </div>

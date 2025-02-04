@@ -9,7 +9,7 @@ import { ethers } from "ethers";
 
 //INETRNAL IMPORT
 import { CONTEXT } from "../../context/ContextProvider";
-import { convertIntoMatic, shortenAddress } from "../../utils/index";
+import { convertIntoPOL, shortenAddress } from "../../utils/index";
 
 //INTERNAL IMPORT
 import ByModel from "../Address/ByModel";
@@ -92,7 +92,7 @@ const tx = () => {
         type="hidden"
         name="hdnTxnFeeTitle"
         id="hdnTxnFeeTitle"
-        value="(Gas Price * Gas Used by Txns) in MATIC"
+        value="(Gas Price * Gas Used by Txns) in POL"
       />
       <input
         type="hidden"
@@ -383,7 +383,7 @@ const tx = () => {
                         />
                         <span>
                           {value}
-                          MATIC
+                          POL
                         </span>{" "}
                         <span class="text-muted"></span>
                       </div>
@@ -406,7 +406,7 @@ const tx = () => {
                           >
                             {gasLimit}
                           </span>{" "}
-                          <span class="text-muted">(Matic)</span>
+                          <span class="text-muted">(POL)</span>
                         </div>
                       </span>
                     </div>
@@ -423,7 +423,7 @@ const tx = () => {
                       data-bs-toggle="tooltip"
                     >
                       {gasPrice}
-                      <span class="text-muted">( MATIC)</span>
+                      <span class="text-muted">( POL)</span>
                     </span>
                   </div>
                 </div>
@@ -501,11 +501,11 @@ const tx = () => {
                         <div class="d-flex flex-wrap gap-2">
                           <span class="badge bg-secondary bg-opacity-10 border border-secondary border-opacity-25 text-dark fw-medium text-start text-wrap py-1.5 px-2">
                             🔥 <span class="text-muted">Burnt:</span> 0<b>.</b>
-                            0088056341921756 MATIC ($0.01)
+                            0088056341921756 POL ($0.01)
                           </span>
                           <span class="badge bg-secondary bg-opacity-10 border border-secondary border-opacity-25 text-dark fw-medium text-start text-wrap py-1.5 px-2">
                             💸 <span class="text-muted">Txn Savings:</span> 0
-                            <b>.</b>0037508292078244 MATIC ($0.00)
+                            <b>.</b>0037508292078244 POL ($0.00)
                           </span>
                         </div>
                       </div>

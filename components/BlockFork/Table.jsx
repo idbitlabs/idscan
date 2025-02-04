@@ -81,7 +81,7 @@ const Table = () => {
               <td>29,970,275</td>
               <td>0.000 TH</td>
               <td>
-                0<b>.</b>61411 MATIC
+                0<b>.</b>61411 POL
               </td>
               <td>7</td>
             </tr>

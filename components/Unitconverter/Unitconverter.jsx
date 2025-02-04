@@ -34,7 +34,7 @@ const Unitconverter = () => {
         type="hidden"
         name="hdnTxnFeeTitle"
         id="hdnTxnFeeTitle"
-        value="(Gas Price * Gas Used by Txns) in MATIC"
+        value="(Gas Price * Gas Used by Txns) in POL"
       />
       <input
         type="hidden"
@@ -218,7 +218,7 @@ const Unitconverter = () => {
             <div class="mb-5">
               <h2 class="fs-default">Unit Converter</h2>
               <p>
-                MATIC is often used in different denominations of its currency,
+                POL is often used in different denominations of its currency,
                 such as Wei for interacting with smart contracts and Gwei for
                 calculating gas prices. Use our Unit Converter to easily convert
                 between them!
@@ -329,75 +329,75 @@ const Unitconverter = () => {
                       <input
                         type="text"
                         class="form-control convertedValue"
-                        placeholder="MATIC"
-                        aria-label="MATIC"
+                        placeholder="POL"
+                        aria-label="POL"
                         id="ether"
                       />
                       <span
                         class="input-group-text"
                         style={{ minWidth: "7.2rem" }}
                       >
-                        MATIC (1)
+                        POL (1)
                       </span>
                     </div>
                     <div class="input-group mb-2">
                       <input
                         type="text"
                         class="form-control convertedValue"
-                        placeholder="KMATIC"
-                        aria-label="KMATIC"
+                        placeholder="KPOL"
+                        aria-label="KPOL"
                         id="kether"
                       />
                       <span
                         class="input-group-text"
                         style={{ minWidth: "7.2rem" }}
                       >
-                        KMATIC (10<sup>3</sup>)
+                        KPOL (10<sup>3</sup>)
                       </span>
                     </div>
                     <div class="input-group mb-2">
                       <input
                         type="text"
                         class="form-control convertedValue"
-                        placeholder="MMATIC"
-                        aria-label="MMATIC"
+                        placeholder="MPOL"
+                        aria-label="MPOL"
                         id="mether"
                       />
                       <span
                         class="input-group-text"
                         style={{ minWidth: "7.2rem" }}
                       >
-                        MMATIC (10<sup>6</sup>)
+                        MPOL (10<sup>6</sup>)
                       </span>
                     </div>
                     <div class="input-group mb-2">
                       <input
                         type="text"
                         class="form-control convertedValue"
-                        placeholder="GMATIC"
-                        aria-label="GMATIC"
+                        placeholder="GPOL"
+                        aria-label="GPOL"
                         id="gether"
                       />
                       <span
                         class="input-group-text"
                         style={{ minWidth: "7.2rem" }}
                       >
-                        GMATIC (10<sup>9</sup>)
+                        GPOL (10<sup>9</sup>)
                       </span>
                     </div>
                     <div class="input-group mb-2">
                       <input
                         type="text"
                         class="form-control convertedValue"
-                        placeholder="TMATIC"
-                        aria-label="TMATIC"
+                        placeholder="TPOL"
+                        aria-label="TPOL"
                         id="tether"
                       />
                       <span
                         class="input-group-text"
                         style={{ minWidth: "7.2rem" }}
                       >
-                        TMATIC (10<sup>12</sup>)
+                        TPOL (10<sup>12</sup>)
                       </span>
                     </div>
                   </div>

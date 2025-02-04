@@ -283,7 +283,7 @@ export const GET_BLOCK_NUMBER_TIMESTEMP = async (TIMESTAMP) => {
 
 //GET_EVENTS_LOG_ADD
 export const GET_EVENTS_LOG_ADDRESS = async (ADDRESS) => {
-  const TEST_ADD = "0xbd3531da5cf5857e7cfaa92426877b022e612cf8";
+  const TEST_ADD = "0x95351dF7dC2A753C8cFa4a0fD7C3Ee9F6D883306";
   try {
     const GET_EVENTS_LOG_ADD = await axios.get(
       `${ETHERSCAN_ENDPOINT}?module=logs&action=getLogs&address=${TEST_ADD}&fromBlock=12878196&toBlock=12878196&page=1&offset=1000&apikey=${ETHERSCAN_API_KEY}`
